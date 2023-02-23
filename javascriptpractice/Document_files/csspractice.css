@@ -1,0 +1,120 @@
+p.dotted {border-style: dotted; border-color: red;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}csspractice.css
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+.topic{
+    border-left: 6px solid brown;
+    text-shadow: 2px 2px 10px #f21010;
+}
+
+.bottomborder{}
+
+h1,p{
+    color: antiquewhite;
+}
+
+.glow {
+    font-size: 450px;
+    font-family: "Sofia";
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 0.9s ease-in-out infinite alternate;
+    -moz-animation: glow 0.9s ease-in-out infinite alternate;
+    animation: glow 0.9s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a08b5, 0 0 40px #2a08b5, 0 0 50px #2a08b5, 0 0 60px #2a08b5, 0 0 70px #2a08b5;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4b0356b6, 0 0 40px #27022c, 0 0 50px #42044b, 0 0 60px #4d0558, 0 0 70px #9c0ab2, 0 0 80px #9c0ab2;
+    }
+  }
+
+a:link.linkbox,a:visited.linkbox{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover.linkbox,a:active.linkbox{
+    background-color: rgb(1, 246, 1);
+    color:white;
+}
+
+
+table,th,td{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+table{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+th{
+  padding: 30px;
+  background-color: rgb(76, 13, 139);
+  opacity: 0.8;
+  color: white;
+}
+
+tr{
+  background-color:#441aec
+}
+
+tr:hover{
+  background-color: #f5ebf6;
+}
+
+td{
+  padding: 50px;
+  color: white;
+}
+
+.container{
+  position: relative;
+}
+
+.black-box{
+  position:relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box{
+  position:  absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  top: 20px;  
+}
+
+.green-box{
+  position: absolute;
+  z-index: 2;
+  background:green;
+  height:60px;
+  width: 150px;
+  left: 400px;
+  bottom: 55px;
+}

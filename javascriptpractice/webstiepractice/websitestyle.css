@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    /* 패딩 마진 포함 width and height */
+  }
+  
+  .menu {
+    float: left; 
+    width: 20%;
+    text-align: center;
+    /* 메뉴 */
+  }
+  
+  .menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    /* 메뉴 링크 */
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    /* 메인 */
+  }
+  
+  .right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    /* 오른쪽 */
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    border-radius: 1000px;
+
+  }
+
+  li{
+    float:left;
+    
+  }
+
+  li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+
+  }
+
+  li a:hover{
+    background-color: gray;
+  }

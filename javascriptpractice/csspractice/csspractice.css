@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  /* padding and border are included in the width and height */
+}
+/* to center the block element, use margin auto
+but if width is not set or set to 100% it will not work */
+
+/* a:link unvisited
+  a: visited visited
+  a: hover when the mouse cursor is over
+  a:active selected link 
+  
+  a:hover MUST come after a:link and a:visited in the CSS definition 
+  in order to be effective! 
+  a:active MUST come after a:hover in the CSS definition 
+  in order to be effective! Pseudo-class names are not case-sensitive.*/
+
+/* .tada p{
+  display: none;
+  background-color: blueviolet;
+  padding: 20px;
+}  
+
+div:hover.tada p{
+  display: block;
+}
+
+div.tada, div.tada h5{
+  background-color: gray;
+  margin-bottom: 0;
+} */
+
+body{
+  margin: 0;
+}
+
+ul.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav li{
+  float: left;
+}
+
+.nav li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.nav li a:hover{
+  background-color: antiquewhite;
+  color: black;
+}
+
+.paragraph{
+  margin-top: 60px;
+  height: 1600px;
+  background-color: blanchedalmond;
+}
+
+p{
+  padding: 30px;
+}
+
+.parahead::first-letter{
+  initial-letter: 5;
+}
+
+.active{
+  background-color: rgb(224, 183, 128);
+}
+
